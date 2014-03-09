@@ -3,7 +3,10 @@ import os
 class Test:
 
     def __init__(self, root='', langid=None, accuracy=None):
-        self.root = root
+        if root:
+            self.root = root
+        else:
+            self.root = 'corpus-esaren.train'
         self.langid = langid
         self.a = accuracy
 
