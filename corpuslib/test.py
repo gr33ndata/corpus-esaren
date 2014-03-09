@@ -1,4 +1,5 @@
 import os
+import codecs
 
 class Test:
 
@@ -6,7 +7,7 @@ class Test:
         if root:
             self.root = root
         else:
-            self.root = 'corpus-esaren.train'
+            self.root = 'corpus-esaren.test'
         self.langid = langid
         self.a = accuracy
 
@@ -22,9 +23,15 @@ class Test:
         else:
             lang = path[1]
             #print arg, dirname, names
+            names = [name for name in names if not name.startswith('.')]
             for name in names:
-                fd = open(dirname + '/' + name,'r')
-                for line in fd.readlines():
+                filename = dirname + '/' + name
+                print 'filename:', filename
+                fd = codecs.open(filename, encoding='utf-8')
+                #fd = open(filename,'r')
+                lines = fd.read()
+                #for line in fd.readlines():
+                for line in lines.split('\n'):
                     res = self.langid.classify(line)
                     #print lang, ':', res
                     if lang == res[0]:
@@ -48,7 +55,7 @@ class Accuracy:
             self.correct += 1
         else:
             self.incorrect += 1
-        #print 'updates', self.correct, self.incorrect
+        print 'updates', self.correct, self.incorrect
 
     def evaluate(self):
         total_cases = self.correct + self.incorrect
