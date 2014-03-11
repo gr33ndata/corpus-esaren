@@ -92,9 +92,16 @@ Ember App Kit aims to be the foundation for ambitious web applications built wit
 starting point for ambitious web applications.
 We welcome ideas and experiments.
 Optional support for CoffeeScript, SASS, LESS or Stylus
+Well this allows me to be lazy on this post and take my time :)
+Sorry for typo. I meant March 20.
+Major revisions are basically entirely new, competing projects.
+RT @acarvin: Want to ask Edward Snowden a question? Use the hashtag #askSnowden.
+Snowden: By pursuing backdoors and corrupting standards, the NSA elevated offence over the defence of our country #sxsw
 The Chilean data #journalism platform Poderopedia plans to expand to Venezuela and Colombia 
+So You Think You Want to Open a Brewery... | Serious Eats: Drinks http://buff.ly/1gfdEbj 
 How to Run a Successful Hackathon by @miguelpaz http://bit.ly/11FUZOs 
 Looking forward to @cwodtke's new book: The Executioner's Tale: http://lnc.hr/i6htw 
 The hardest part of optimization may be getting agreement on an explicit function to optimize.
 Any phone where you can't remove the battery is a phone that will be used against you
 Many try to turn Art into Science. All fail.
+Liking Isn’t Helping: Be A Volunteer pic.twitter.com/wOmyterOoK
